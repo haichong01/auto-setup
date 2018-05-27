@@ -8,6 +8,7 @@ gpgkey=https://yum.dockerproject.org/pgp
 " > /etc/yum.repos.d/docker.repo
 yum update -y
 yum install -y docker-engine
+service docker start
 systemctl enable docker
 
 docker pull registry.cn-beijing.aliyuncs.com/tcm/ulord
