@@ -1,0 +1,17 @@
+{                                                                                                             
+    "algo": "cryptonight-webchain",
+    "av": 0,                // algorithm variation, 0 auto select                                             
+    "background": false,    // true to run the miner in the background                                        
+    "donate-level": 1,      // donate level, mininum 1% 
+    "threads": null,                                                      
+    "pools": [
+        {
+            "url": "pool.webchain.network:3333", // URL of mining server
+            "user": "0x1f640fea96913bb33ae85b10b394f82bb7e4892a",               // username for mining server
+            "pass": "x",                         // password for mining server
+            "worker-id": "0",                    // worker ID for mining server
+            "keepalive": false,                  // send keepalived for prevent timeout (need pool support)
+            "nicehash": false
+        }
+    ]
+}
